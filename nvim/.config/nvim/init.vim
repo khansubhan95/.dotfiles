@@ -29,10 +29,6 @@ Plug 'tpope/vim-commentary'
 
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
 
-Plug 'fatih/vim-go', { 'tag': '*' }
-
-Plug 'nsf/gocode', { 'tag': 'v.20150303', 'rtp': 'vim' }
-
 " Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 
 Plug 'folke/tokyonight.nvim'
@@ -44,6 +40,8 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter'
 
 Plug 'sbdchd/neoformat'
+
+Plug 'vimwiki/vimwiki'
 
 
 call plug#end()
