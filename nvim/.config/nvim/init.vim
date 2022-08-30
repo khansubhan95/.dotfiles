@@ -13,6 +13,7 @@ set clipboard+=unnamedplus
 
 set smartindent
 set termguicolors
+let g:netrw_banner='qf'
 let mapleader=' '
 nnoremap <leader>pv <cmd>Vex<CR><cmd>vertical resize 30<CR>
 
@@ -26,6 +27,7 @@ Plug 'tpope/vim-commentary'
 
 Plug 'folke/tokyonight.nvim'
 Plug 'gruvbox-community/gruvbox'
+Plug 'phanviet/vim-monokai-pro'
 
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
@@ -33,9 +35,8 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter'
 
 Plug 'vimwiki/vimwiki'
-
 call plug#end()
-colorscheme gruvbox
+colorscheme monokai_pro
 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
