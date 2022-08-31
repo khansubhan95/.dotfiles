@@ -35,8 +35,9 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter'
 
 Plug 'vimwiki/vimwiki'
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 call plug#end()
-colorscheme monokai_pro
+colorscheme gruvbox
 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
